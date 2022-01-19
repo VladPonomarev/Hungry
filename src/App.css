@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header{
+  background: url('./img/header_fon.png');
+  height: 10vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-main{
+  background: url('./img/header_fon.png');
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App_menu{
+  width: 35rem;
+}
+
+.App-phone img{
+  height: 35em;
+  margin-top: 5em;
+}
+
+.App_google{
+  border: none;
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 12.5em;
+  border-radius: 10px;
+  padding-left: 45px;
+}
+
+.App_store{
+  border: none;
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 12.5em;
+  border-radius: 10px;
+  padding-left: 50px;
+}
+
+.nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 8vh;
 }
 
-.App-link {
-  color: #61dafb;
+.nav_items{
+  display: flex;
+  justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav_item, .nav_item a{
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn{
+  border: none;
+  border-radius: 10px;
+  padding: .5em 1em;
+}
+
+.btn_play, .btn_store{
+  position: relative;
+  margin-top: 50px;
+}
+
+.btn_play img, .btn_store img{
+  position: absolute;
+    left: 17px;
+    top: 8px;
+    height: 35px;
+}
+
+.btn_group{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sub_title{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
 }
