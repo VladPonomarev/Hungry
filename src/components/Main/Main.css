@@ -1,0 +1,66 @@
+.App-main{
+    background: url('./../../img/header_fon.png');
+    height: 90vh;
+ }
+
+ .App-phone img{
+    height: 35em;
+    margin-top: 5em;
+  }
+
+.App_google{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 12.5em;
+    border-radius: 10px;
+    padding-left: 45px;
+}
+  
+.App_store{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 12.5em;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.btn_play img, .btn_store img{
+    position: absolute;
+      left: 17px;
+      top: 8px;
+      height: 35px;
+}
+
+.btn_play, .btn_store{
+    position: relative;
+    margin-top: 50px;
+}
+.btn_group{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sub_title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+

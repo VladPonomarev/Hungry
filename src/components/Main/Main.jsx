@@ -1,7 +1,8 @@
 import React from 'react';
-import phone from './../img/phone.png';
-import Play from './../img/Play.png';
-import Store from './../img/Store.png';
+import './Main.css'
+import Play from './../../img/Play.png';
+import Store from './../../img/Store.png';
+import phone from './../../img/phone.png';
 
 const Main = () => {
     return (

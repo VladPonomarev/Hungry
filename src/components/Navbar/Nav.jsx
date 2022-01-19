@@ -1,6 +1,7 @@
-import logo from './../img/Logo.png'
-import Items from './Items'
-import React from 'react'
+import React from 'react';
+import './Nav.css';
+import logo from './../../img/Logo.png';
+import Items from '../Items/Items';
 
 const Nav = () => {
     return (
@@ -20,7 +21,7 @@ const Nav = () => {
                             </ul>
                         </div>
                         <div className="App_btn">
-                            <button className="btn">Download Now</button>
+                            <button className="btn_nav">Download Now</button>
                         </div>
                     </div>
                 </div>

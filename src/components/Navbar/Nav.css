@@ -1,0 +1,32 @@
+.App-header{
+    background: url('./../../img/header_fon.png');
+    height: 10vh;
+}
+
+.App_menu{
+    width: 35rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav_items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_item, .nav_item a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn_nav{
+    border: none;
+    border-radius: 10px;
+    padding: .5em 1em;
+}
