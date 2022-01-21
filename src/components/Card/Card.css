@@ -1,0 +1,28 @@
+.card{
+    width: 18rem;
+}
+
+.img_card{
+    width: 18rem;
+}
+
+.title_card{
+    color: #000;
+    margin: 15px auto;
+}
+
+.text_card{
+    color: #000;
+    margin: 15px auto;
+}
+
+.btn_card{
+    color: #1F98F0;
+}
+
+.card_news{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}

@@ -7,7 +7,7 @@ import './Testimonial.css';
 const Testimonial = () => {
   return (
     <div>
-      <h1>Testimonial</h1>
+      <h1 className='text'>Testimonial</h1>
     </div>
   )
 };

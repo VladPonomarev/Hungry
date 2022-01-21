@@ -6,7 +6,7 @@ import './Features.css';
 const Features = () => {
     return (
         <div>
-            <h1>Features</h1>
+            <h1 className='text'>Features</h1>
         </div>
     )
 }

@@ -14,7 +14,7 @@ const Nav = () => {
                         </div>
                         <div className="App_menu">
                             <ul className="nav_items">
-                                <li className="nav_item"><Items href="/" text="Home"/></li>
+                                <li className="nav_item"><Items href="/Main" text="Home"/></li>
                                 <li className="nav_item"><Items href="/Features" text="Features"/></li>
                                 <li className="nav_item"><Items href="/Testimonial" text="Testimonial"/></li>
                                 <li className="nav_item"><Items href="/Blog" text="Blog"/></li>
